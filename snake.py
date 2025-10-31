@@ -1,4 +1,4 @@
-"""Snake, classic arcade game.
++"""Snake, classic arcade game.
 
 Exercises
 
@@ -13,6 +13,7 @@ from turtle import *
 
 from freegames import square, vector
 
+colors = ['blue', 'green', 'purple', 'orange', 'yellow']
 food = vector(0, 0)
 snake = [vector(10, 0)]
 aim = vector(0, -10)
